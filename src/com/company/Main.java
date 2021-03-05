@@ -2,9 +2,11 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        String name = "Roman lox";
-        int age = 22;
-        String colorHeir = "Syvyi";
-
+        int cocklength = 4;
+        if (cocklength < 5) {
+            System.out.println("Roman");
+        } else {
+            System.out.println("Vasya");
+        }
     }
 }
